@@ -1,0 +1,23 @@
+.detail {
+	display: inline-block;
+	background: rgba(244, 244, 244, .8);
+	border-radius: 26px;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	/* margin-top: 30px; */
+}
+
+.titleDate {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.field {
+    font-size: 16px;
+}
+
+.field:not(:last-child) {
+    margin-bottom: 10px;
+}

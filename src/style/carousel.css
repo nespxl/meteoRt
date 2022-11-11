@@ -1,0 +1,52 @@
+.mainContainer {
+    display: flex;
+    width: 100%;
+}
+
+.section {
+    padding: 0 60px;
+    padding-bottom: 67px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.list:last-child .item:last-child {
+    margin-right: 0;
+}
+
+.arrowLeft {
+    transform: rotate(180deg);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    height: 440px;
+}
+
+.window {
+    overflow: hidden;
+    width: 100%;
+}
+
+.allItemsContainer {
+    display: flex;
+    transition: transform .4s ease;
+}
+
+.arrow {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

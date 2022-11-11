@@ -1,0 +1,28 @@
+.navbar {
+    background: rgba(0, 0, 0, .7);
+    border-radius: 16px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.item {
+    padding: 20px;
+}
+.item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.btn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
